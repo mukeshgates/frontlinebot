@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Frontline</title>
+    <meta property="og:title" content="Frontline Chat | About">
+    <meta property="og:image" content="assets/img/team-present.jpg">
+    <meta property="og:description" content="Natural Language Processing interactive chatbot to support friends and family of veterans and those suffering from PTSD. Project for Lumohacks 2018.">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <script>
+        $(document).ready(function() {
+            $(".menu_button").click(function() {
+                show_menu();
+            });
+        });
+        function show_menu() {
+            $('.menu_links').animate({width:'toggle'},350);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="menu">
+        <p class="menu_button">
+            <img src="menuicon-grey.png">
+        </p>
+        <div class="logo">
+            <a href="./index.html"><img src="Frontline_Logo.png"></a>
+        </div>
+    </div>
+
+    <ul class="menu_links">
+        <li><a href="#"></a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+
+    <main>
+        <p>
+            <center><i>It takes a community to heal together.</i></center>
+        </p>
+
+        <img src="assets/img/separator.png" class="page-size">
+
+        <p>
+            <a href="https://lumohacks2018.github.io/"><b>Frontline</b></a> is a Natural Language Processing interactive chatbot which provides personalized and localized support for friends and family of veterans and  those suffering from PTSD. The project was created during September 15-16, 2018 for <a href="http://www.lumohacks.com/">Lumohacks</a>, a health-focused hackathon.
+        </p>
+        <p>
+            <div class="horizontal_gallery_container">
+              <div class="horizontal_gallery">
+                <a href="https://github.com/lumohacks2018">
+                  <img src="assets/img/github.png" alt="GitHub logo" title="View the source code on GitHub" style="width:8em">
+                </a>
+              </div>
+            </div>
+        </p>
+
+        <center>
+          <p>
+            <img src="assets/img/wolfram-alpha.png" style="width:100px;vertical-align:middle"> &nbsp; &nbsp;
+            <i><b>Award:</b> Top 15 Overall Teams - Wolfram Alpha</i>
+          <p>
+            <img src="assets/img/domaincom.png" style="width:200px;vertical-align:middle"> &nbsp; &nbsp;
+            <i><b>Award:</b> Best Domain Registered with Domain.com</i>
+          </p>
+        </center>
+
+        <img src="assets/img/team-present.jpg" class="page-size">
+
+        <img src="assets/img/separator.png" class="page-size">
+
+        <h1>The Problem</h1>
+        <p>
+            By nature of their occupation, first responders and veterans are more vulnerable to mental illnesses such as PTSD. <a href="http://ptsdusa.org/what-is-ptsd/the-statistics/">One in three veterans are diagnosed with PTSD</a>, and the research and knowledge we have about treating PTSD for first responders is still <a href="https://www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20041710&PageNo=1&RecNo=1&View=f&">severely lacking</a>.
+        </p>
+        <p>
+            Our question is - How do we reach out to support them and be there for them, especially when they cannot reach out themselves? How can we, <i>as a society</i>, make a difference for these vulnerable groups?
+        </p>
+
+        <h1>Target Market</h1>
+        <p>
+            We start with the people you care about - friends, family, acquaintances. These people are <b>one degree</b> from those who are vulnerable or suffering, and are best positioned to be an emotional support. They are familiar with technology but are not necessarily experts. Above all, they are empathetic in wanting to help someone they know who is in need.
+        </p>
+
+        <h2>Personas</h2>
+        <p>
+            The following 3 personas are examples of expected users for this project - a veteran who re-experiences traumatic times during service, and two people who notice the changed behaviour of a veteran they are close with but do not know how to reach out appropriately.
+        </p>
+        </main>
+
+    <div class="horizontal_gallery_container">
+        <div class="horizontal_gallery"><img src="assets/img/persona1.png" alt="Persona 1"></div>
+        <div class="horizontal_gallery"><img src="assets/img/persona2.png" alt="Persona 2"></div>
+        <div class="horizontal_gallery"><img src="assets/img/persona3.png" alt="Persona 3"></div>
+    </div>
+
+    <main>
+        <p>
+            Most importantly, these people need the appropriate <i>professional guidance and support</i> in order to reach out and provide relevant care.
+        </p>
+        <p>
+            To summarize, <b>we believe that the friends and family of those vulnerable to PTSD should be able to have the support and resources they need to reach out to the people close to them in need of help.</b>
+        </p>
+
+        <h1>Solution</h1>
+
+        <p>
+            Our solution is a Natural Language Processing (NLP) chatbot which provides <b>personalized and localized support</b> for those who are one-degree from veterans and those vulnerable to PTSD.
+        </p>
+        <img src="assets/img/dialog-screenshot-website.jpg" class="img-border page-size">
+        <p>
+            Users interact and converse with Frontline which is trained to <i>understand emotions and symptoms</i> relevant to someone suffering from PTSD. In the case that a user displays signs of imminent risk or danger, such as suicidal intentions, Frontline has been trained to immediately provide hotlines to contact.
+        </p>
+        <p>
+            The user may interact with Frontline on the <a href="https://lumohacks2018.github.io/">website</a> or on <a href="https://www.facebook.com/frontline.lumohacks/">Facebook</a>. When on Facebook, Frontline has the additional feature of being able to give control of the chat to a real person (an administrator of the Facebook page).
+        </p>
+        <img src="assets/img/dialog-screenshot-facebook.jpg" class="img-border page-size">
+
+        <h2>Technology Stack</h2>
+
+        <h3>Dialogflow</h3>
+        <div class="horizontal_gallery_container">
+          <div class="horizontal_gallery">
+              <a href="https://dialogflow.com/">
+                  <img src="assets/img/dialogflow.png" alt="Dialogflow logo" width=500>
+              </a>
+          </div>
+        </div>
+        <p>
+          <a href="https://dialogflow.com/">Dialogflow</a> is the Natural Language Processing framework we used to build the Frontline chatbot.
+        </p>
+        <p>
+          Dialogflow analyzes a conversational response and determines its <i>intent</i>, which is a specific path of conversation around which the bot can create a response. Understanding of a concept is created by designing <i>entities</i> which store related concepts and terminology, and can be integrated into a message to respond dynamically. It is hosted on Google Cloud Platform.
+        </p>
+        <img src="assets/img/dialogflow-diagram.png" class="page-size">
+        <p>
+          The strongest feature of Frontline is not only how we have trained the chatbot but also how we can continue to train it. The potential of this AI bot is limited only by the effort and time of the developers. One of the future training aspects that we hope to improve upon is <i>Knowledge Training</i>. This feature, as part of Google Dialogflow, allows a user to train the AI not just on intent and response queries but by FAQs and knowledge based articles.
+        </p>
+        <p>
+          The mental health community has so many great resources available and instead of re-inventing the wheel, we are learning from it. With Dialogflow the console allows the input of CSV or HTML files containing knowledge based articles. The tool is able to parse this data and create separate intents that do not need to be pre-defined, so a user is not limited solely to questions they would ask. By training the AI on this material, it can better help identify an issue and direct a user to the help that they need. It is up to everyone to help the mental health community, not just a single individual, but pooling the combined resources of the pre-existing scientific base we can begin to create a solution that will truly make a difference.
+        </p>
+
+        <h3>Facebook</h3>
+        <div class="horizontal_gallery_container">
+          <div class="horizontal_gallery">
+            <a href="https://developers.facebook.com/">
+              <img src="assets/img/facebook.png" alt="Facebook logo" width=180>
+            </a>
+          </div>
+        </div>
+        <p>
+            <a href="https://developers.facebook.com/">Facebook</a> is our natural integration and interaction platform.
+        </p>
+        <p>
+          Users can talk with the bot over social media through a chat with <a href="https://www.facebook.com/frontline.lumohacks/">this Facebook page</a> which is connected directly with the Google Dialogflow bot. Keep in mind that any dialogue exchanged through the Facebook bot can be read by the administrators of the project.
+        </p>
+        <p>
+          To restart the conversation, delete the conversation and send a new message to the page.
+        </p>
+        <p>
+        </p>
+
+        <h3>Domain.com</h3>
+        <div class="horizontal_gallery_container">
+          <div class="horizontal_gallery">
+              <a href="https://www.domain.com">
+                  <img src="assets/img/domaincom.png" alt="Domain.com logo" width=500>
+              </a>
+          </div>
+        </div>
+        <p>
+            <a href="https://www.domain.com/">Domain.com</a> was the DNS management host used for the chatbot website.
+        </p>
+        <p>
+          The domain was chosen to reflect the project, and was set with the A Record pointing to the IP address of the Google Cloud Platform host. The domain http://frontline-help.com/ was temporarily set up for the hackathon and is no longer active.
+        </p>
+
+        <h3>Google Cloud Platform</h3>
+        <div class="horizontal_gallery_container">
+          <div class="horizontal_gallery">
+              <a href="https://cloud.google.com/">
+                  <img src="assets/img/google-cloud-platform.png" alt="Google Cloud Platform logo" width=200>
+              </a>
+          </div>
+          <div class="horizontal_gallery">
+              <a href="https://cloud.google.com/compute/">
+                  <img src="assets/img/google-compute-engine.png" alt="Google Compute Engine logo" width=200>
+              </a>
+          </div>
+        </div>
+        <p>
+            <a href="https://cloud.google.com/">Google Cloud Platform</a> was the host for the website and for Google Dialogflow.
+        </p>
+        <p>
+          A <a href="https://cloud.google.com/compute/">Google Compute Engine</a> Virtual Machine instance was set up to host the website temporarily for the hackathon but is no longer active. The website is now hosted on <a href="https://github.com/">GitHub</a> at <a href="https://github.com/lumohacks2018">https://github.com/lumohacks2018/</a>.
+        </p>
+
+        <h1>Positioning</h1>
+
+        <p>
+            In relation to <i>current counselling and chat services</i> (e.g. <a href="https://www.sfu.ca/students/health/support/mental-health/my-ssp.html">My SSP</a>), this augments their effectiveness by directing users to resources which are appropriate and relevant to their situation. Frontline aids in content discovery as users will often learn about resources they were not previously aware of.
+        </p>
+        <p>
+            Frontline would augment <i>peer support</i> to be stronger and more educated by providing directly pertinent information.
+        </p>
+
+        <h1>Objectives</h1>
+        <p>
+            The strategic objectives of this project were to <i>educate and empower</i> the community to be able to help others and to create a <i>localized social impact</i>.
+        </p>
+        <p>
+            They say “It takes a village to raise a child.”
+        </p>
+        <p>
+            It also takes a community to heal - <b>together</b>.
+        </p>
+
+        <img src="assets/img/separator.png" class="page-size">
+
+        <h1>About</h1>
+
+        <p>
+            The creators of this project are <a href="https://github.com/jleung51">Jeffrey Leung</a>, <a href="https://github.com/KieranMcCormick">Kieran McCormick</a>, <a href="https://github.com/Brad1321">Bradley Dalrymple</a>, and <a href="https://github.com/carlsonchan">Carlson Chan</a>.
+        </p>
+        <img src="assets/img/team-award.jpg" class="page-size">
+        <p>
+            In <b>Lumohacks 2016</b>, we created an automated pill dispenser. <a href="https://lumohacks-med-disp.github.io/">Learn more about the project here.</a>
+        </p>
+        <p>
+            <i>Disclaimer: This page was created after the hackathon's completion.</i>
+        </p>
+        <img src="assets/img/team-couch-with-jeffrey.jpg" class="page-size">
+    </main>
+
+</body>
+</html>
