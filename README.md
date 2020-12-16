@@ -6,9 +6,9 @@ ___
 
 Website for an interactive chatbot which provides personalized and localized support for those who are one-degree from veterans and those vulnerable to PTSD.
 
-View the website here: https://lumohacks2018.github.io/
+View the website here: https://mukeshgates.github.io/frontlinebot/
 
-Learn more about the project here: https://lumohacks2018.github.io/about.html
+Learn more about the project here: https://mukeshgates.github.io/frontlinebot/about.html
 
 ![Screenshot of website](readme-img/dialog-screenshot-website.jpg)
 
